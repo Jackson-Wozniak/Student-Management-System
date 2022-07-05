@@ -23,7 +23,7 @@ public class mainFrame extends JFrame{
         JPanel buttonPanel = new JPanel();
         buttonPanel.setBounds(100, 220, 600,40);
         buttonPanel.setLayout(new GridLayout(1, 4, 30, 0));
-        JButton[] buttons = {new JButton("Add Student.Student"), new JButton("Update Student.Student"),
+        JButton[] buttons = {new JButton("Add Student"), new JButton("Update Student"),
                 new JButton("Remove User"), new JButton("Exit")};
         for (JButton button : buttons) {
             buttonPanel.add(button);
@@ -50,7 +50,7 @@ public class mainFrame extends JFrame{
         });
 
         buttons[1].addActionListener(e -> { //update student
-
+            //in progress
         });
 
         buttons[2].addActionListener( e -> { //remove student
